@@ -1,0 +1,83 @@
+# Secrets and credentials
+*.key
+*.pem
+*.env
+.env.local
+secrets/
+credentials/
+*.token
+
+# API keys and config
+config.json
+.secrets/
+auth.json
+
+# Personal notes and scratch
+scratch/
+notes/
+TODO.md
+.notes/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
+.directory
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/
