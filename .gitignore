@@ -1,49 +1,28 @@
-# Secrets & credentials
-.env
-.env.*
+# Sensitive files - extension patterns only
 *.key
 *.pem
-*.secret
-secrets/
-.secrets/
+*.env
 
 # Node
 node_modules/
 package-lock.json
 
-# Build output
+# Build
 dist/
 build/
-public/
-_site/
-resources/
-
-# Hugo
-/hugo_stats.json
 
 # OS
 .DS_Store
 Thumbs.db
 *.swp
-*.swo
-*~
 
 # IDE
 .vscode/
 .idea/
-*.code-workspace
 
 # Logs
 *.log
-logs/
 
 # Python
 __pycache__/
 *.pyc
-.venv/
-venv/
-
-# Draft/working files
-drafts/
-*.draft.md
-.scratch/
